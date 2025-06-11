@@ -22,7 +22,7 @@ while True:
          b -= 1
     print(f"答えは{number}です。")
     d = input("もう1度プレイする場合は'yes'を終了する場合は'no'を入力してください")
-    if b == "no":
+    if d == "no":
         print("終わります。ありがとうございました!")
         break
 
