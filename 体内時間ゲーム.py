@@ -78,7 +78,7 @@ def two_player_bo_game():
         diff1 = player_turn(name1)
         diff2 = player_turn(name2)
 
-        print(f"\n🧮 結果：")
+        print("\n🧮 結果：")
         print(f"{name1} の誤差：{diff1:.2f}秒")
         print(f"{name2} の誤差：{diff2:.2f}秒")
 
