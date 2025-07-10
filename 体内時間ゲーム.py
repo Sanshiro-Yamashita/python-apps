@@ -60,7 +60,7 @@ def two_player_bo_game():
 
     while True:
         try:
-            bo = int(input("🎯 勝負形式を選んでください（1, 3, 5）: "))
+            bo = int(input("🎯 BO形式を選んでください（1, 3, 5）: "))
             if bo in [1, 3, 5]:
                 break
             else:
